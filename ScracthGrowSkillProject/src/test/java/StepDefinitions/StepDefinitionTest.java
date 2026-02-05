@@ -54,6 +54,7 @@ public class StepDefinitionTest extends BaseClass {
 	@Then("user clicks on new customer link")
 	public void user_clicks_on_new_customer_link() {
 		obj1.clickNewCustomer();
+		System.out.println("Hello");
 	}
 
 	@Then("user enters the {string} in  customer name field")
